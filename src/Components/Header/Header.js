@@ -13,7 +13,7 @@ class Header extends Component {
           <a href="#" className="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i className="fa fa-envelope" /></a>
           <div className="w3-dropdown-hover w3-hide-small">
             <button className="w3-button w3-padding-large" title="Notifications"><i className="fa fa-bell" /><span className="w3-badge w3-right w3-small w3-green">3</span></button>     
-            <div className="w3-dropdown-content w3-card-4 w3-bar-block" style={{width: 300}}>
+            <div className="w3-dropdown-content w3-card-4 w3-bar-block" style={{ width: 300 }}>
               <a href="#" className="w3-bar-item w3-button">One new friend request</a>
               <a href="#" className="w3-bar-item w3-button">John Doe posted on your wall</a>
               <a href="#" className="w3-bar-item w3-button">Jane likes your post</a>

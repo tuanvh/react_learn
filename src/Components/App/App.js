@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Header from '../Elements/header';
-
+import Header from '../Header/Header';
+import Menu from '../Menu/Menu';
+import Content from '../Content/Content';
+import Footer from '../Footer/Footer';
 class App extends Component {
   render() {
     return (
@@ -15,7 +17,12 @@ class App extends Component {
       //     To get started, edit <code>src/App.js</code> and save to reload.
       //   </p>
       // </div>
-      <Header />
+      <div>
+        <Header></Header>
+        <Menu></Menu>
+        <Content />
+        <Footer />
+      </div>
     );
   }
 }
